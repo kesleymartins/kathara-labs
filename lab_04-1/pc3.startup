@@ -1,0 +1,1 @@
+ifconfig eth0 add 2001:db8:acad:cafe::3/64
