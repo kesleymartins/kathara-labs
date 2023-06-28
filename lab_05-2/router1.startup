@@ -1,6 +1,4 @@
 ifconfig eth0 192.168.1.2/24
 ifconfig eth1 50.0.0.1/30
 
-/etc/init.d/isc-dhcp-server start
-
-route add default gw 50.0.0.1
+route add default gw 50.0.0.2
