@@ -1,0 +1,6 @@
+ifconfig eth0 192.168.10.6/24
+ifconfig eth1 50.0.0.1/30
+ifconfig eth2 10.0.0.1/30
+
+route add -net 192.168.20.0/24 gw 10.0.0.2
+route add default gw 50.0.0.0
